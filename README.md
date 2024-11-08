@@ -1,20 +1,58 @@
-# Ex-10-Diffie-Hellman-Key-Exchange-Algorithm
+# Ex-10 DIFFIE HELLMAN KEY EXCHANGE ALGORITHM 
 
-## Aim:
+<br>
+
+## DATE:
+
+<br>
+
+## AIM:
+
+<br>
+
 To securely exchange keys between two parties (Alice and Bob) using the Diffie-Hellman key exchange method.
 
-## Algorithm:
+<br>
 
-1. Public parameters p (prime) and g (primitive root mod p) are known.
-2. Each party (Alice and Bob) chooses a secret key.
-3. Alice computes her public key: A = g^a mod p.
-4. Bob computes his public key: B = g^b mod p.
-5. Alice and Bob exchange their public keys.
-6. Alice computes the shared secret: S = B^a mod p.
-7. Bob computes the shared secret: S = A^b mod p.
-8. Both arrive at the same shared secret.
+## DESIGN STEPS:
 
-## Program:
+<br>
+
+Step 1: Public parameters p (prime) and g (primitive root mod p) are known.
+
+<br>
+
+Step 2: Each party (Alice and Bob) chooses a secret key.
+
+<br>
+
+Step 3: Alice computes her public key: A = g^a mod p.
+
+<br>
+
+Step 4: Bob computes his public key: B = g^b mod p.
+
+<br>
+
+Step 5: Alice and Bob exchange their public keys.
+
+<br>
+
+Step 6: Alice computes the shared secret: S = B^a mod p.
+
+<br>
+
+Step 7: Bob computes the shared secret: S = A^b mod p.
+
+<br>
+
+Step 8: Both arrive at the same shared secret.
+
+<br>
+
+## PROGRAM:
+
+<br>
 
 ```
 #include <iostream>
@@ -79,9 +117,20 @@ int main() {
     return 0;
 }
 ```
-## Output:
+
+<br>
+
+## OUTPUT:
+
+<br>
 
 ![image](https://github.com/user-attachments/assets/3078b326-b365-45e6-b00b-16a9bca0f349)
 
-## Result:
+<br>
+
+## RESULT:
+
+
+<br>
+
 The Diffie-Hellman key exchange algorithm is successfully implemented, and both parties arrive at the same shared secret.
