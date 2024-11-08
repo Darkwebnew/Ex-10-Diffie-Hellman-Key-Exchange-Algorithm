@@ -14,7 +14,7 @@ To securely exchange keys between two parties (Alice and Bob) using the Diffie-H
 
 <br>
 
-## DESIGN STEPS:
+## ALGORITHM:
 
 <br>
 
