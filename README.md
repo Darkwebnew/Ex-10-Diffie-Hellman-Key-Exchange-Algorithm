@@ -26,11 +26,11 @@ Step 2: Each party (Alice and Bob) chooses a secret key.
 
 <br>
 
-Step 3: Alice computes her public key: A = g^a mod p.
+Step 3: Alice computes her public key: A = $$g^a$$ mod p.
 
 <br>
 
-Step 4: Bob computes his public key: B = g^b mod p.
+Step 4: Bob computes his public key: B = $$g^b$$ mod p.
 
 <br>
 
@@ -38,11 +38,11 @@ Step 5: Alice and Bob exchange their public keys.
 
 <br>
 
-Step 6: Alice computes the shared secret: S = B^a mod p.
+Step 6: Alice computes the shared secret: S = $$B^a$$ mod p.
 
 <br>
 
-Step 7: Bob computes the shared secret: S = A^b mod p.
+Step 7: Bob computes the shared secret: S = $$A^b$$ mod p.
 
 <br>
 
